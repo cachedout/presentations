@@ -1,0 +1,85 @@
+I. Intro
+
+II. Caveman to computer
+    1) What we're going to talk about today is a brief history of computing.
+    2) One of the things that I like most about working in my office is the amount of world history and U.S. history that people know.
+    3) One of the things that we talk about in the office, a LOT, is the history of computing and the history of UNIX in particular.
+    4) We want to understand the lessons of the past so we don't repeat the mistakes and we want to make sure we utilize the patterns
+        that have been successful. There's a lot of innvation in devops right now and so much of it is a reaction to problems which are relatively
+        recent that we want to make sure we have a long enough view.
+    5) Morevover, I'm of the opinion that one of the things that separates good software from *great* software is that great software takes its inspirtation
+        not just from the problem at hand but from solutions that exist in the world outside of computing. Maybe this because I'm a bearded hippie from Utah but
+        I want us to see what lessons the natural world can teach devops.
+
+III. Range Creek
+    1) So I want to start in Range Creek which is one of the most interesting places in the United States that nobody has ever heard of.
+    2) Most of the sites are associated with the Fremont archaeological complex, a term used to describe Utah's earliest farmers who inhabited the region from about A.D. 300 - A.D. 1350.
+    3) It was homsteaded over a 150 hrs ago and passed down from generation to generation. Finally owned by Waldo Wilcox. 
+    4) Was deeded finally to University of Utah in 2009.
+    5) One of the most if not *the* most well-preserved archelogical site for artifacts from that time period.
+
+IV. Sites in Range Creek
+    1) There are upwards of 5,000 pictographs in the ten mile stretch of canyon which are the most well-known feature and the easiest to spot.   
+    2) You can often easily see graneries just by walking a few feet up any side canyon.
+    3) Granaries high up on ridges.
+    4) Many tools recovered from these graneries including the baskets used to carry the corn and the tools used to husk it.
+    5) The point is that the tools tell us as much about the culture as the things that the produced.
+
+V. The tools in the ground
+    1) Many of the tools were built directly into the rock. This is some of the tools again used for husking corn.
+    2) There are a number of theories about why the Freemont vanished from this canyon but they vanished very suddenly. Probably within a few days.
+    3) A very few structures are left along with some of the art, but the best preserved artifcats, far and away are the tools.
+    4) It's the tools that teach us most about the problems that this culture faced.
+    5) And it's the tools that show us how they thought about those problems.
+
+VI. Mining equipment
+    1) Of course there's a danger when you build tools that are too heavy. ;]
+    2) This is a boiler that powered the mining operation at Prince of Wales.
+    3) Give description on where it is.
+    4) This comes from a time period where tools were deeply ornamental and we should think about why that was. What value did ornemental tools provide?
+    5) This was during a heyday of specialized tools. It wasn't all that common to build tools for a single purpose and leave them there to rust.
+
+VII. Summary slide
+    TODO
+
+VIII. IBM Apollo computer
+    1) Introducing automation. (Not *with* computers of course, but automation was the central idea of the computer, which was an important concept.)
+    2) This is the Selective Sequence Electronic Calculator built for 1969 Apollo mission
+
+IX. Automatic Computing Engine (1958)
+    1) Computers could be architectural achievements as well. This one was as well known as an architectural design hallmark as for its computing power.
+
+X. Automation
+    1) Threshing machine from 1881.
+    2) Additional notes on slide.
+
+XI. Automation negatives.
+    1) Galvaston disaster. 2,300 tons of ammonium nitrate exploded.
+    
+XII. Avalanche
+    1) One of the biggest issues with automation in modern IT infrastructure is the ability to cause
+    massive, cascading failure.
+    2) The problem is similar to avalanche safety because just like snow on a slope, there are trigger
+    point in any infrastructure.
+    3) Additionally, infrastructure is never really "at rest". Just like there are subtle changes in weather, snowfall, heat/cold/whatever, IT infrastrcure is sensitive to changes going on underneath it like environmental concerns or on top of it, like traffic.
+
+
+XIII. Probability vs. Consequences
+    1) Self-explanitory
+
+XIV. In the Beginning
+    1) So now we can finally start talking about DevOps..almost. But first we need to talk a little about UNIX.
+    2) Ken Thompson and Dennis Richie
+    3) Ken Thompson is sittind down. Worked at Bell Labs on B. Now works at Google on Go.
+
+XV. The UNIX Philosophy
+    Doug McIlroy quotes:
+
+ "As a programmer, it is your job to put yourself out of business. What you do today can be     automated tomorrow."
+
+ "The notion of "intricate and beautiful complexities" is almost an oxymoron. Unix programme    rs vie with each other for "simple and beautiful" honors — a point that's implicit in these rules, but is     well worth making overt."
+
+ He has criticized Linux for being bloated as compared to his UNIX designs when he was at Bell Labs:
+Everything was small... and my heart sinks for Linux when I see the size of it. [...] The manual page, which really used to be a manual page, is now a small volume, with a thousand options... We used to sit around in the Unix Room saying, 'What can we throw out? Why is there this option?' It's often because there is some deficiency in the basic design — you didn't really hit the right design point. Instead of adding an option, think about what was forcing you to add that option."
+
+

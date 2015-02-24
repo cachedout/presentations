@@ -1,0 +1,13 @@
+Title
+-----
+
+Toolbelt Psychology: What the tools we use tell us about the systems we manage
+
+Abstract
+--------
+
+What can the tools we use teach us about the systems we manage and even about
+ourselves? We'll take a brief tour through the past several decades of systems
+management to see how we arrvied at the DevOps movement and we'll examine the
+current state of systems automation to see if remembering where we've been can
+help us to re-imagine where we might be going.

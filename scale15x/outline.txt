@@ -1,0 +1,69 @@
+I. Introduction
+    1. [Keep it very light. These are boring as hell normally.]
+II. A General History of Tools
+    1. Start with some interesting slides about old tooling. Maybe 2 examples.
+    2. Transition this into a slide about the things that they built.
+        a. Bullet point [First] -- The tools we use to build things frequently outlast the things that they built.
+            * When you look at modern-day systems management, you can see parallels. We're each building and managing unique snowflakes, but the thing that we all share is the tooling we use to create them. 
+    3. OK, now look at tools through the lens of 'automation'. 
+        When we automate things, what gets better?
+            - Faster
+            - Often more accurate/reliable
+            - Easier
+            - Quality of things we can about came sometimes improve
+            - Cost can decrease
+        What gets worse?
+            - Abstraction
+                - Abstraction has downsides. For example, as we automated farming, we not only had fewer farmers but we have fewer people who understand important things about farming.
+            - Personalization/customization goes down. [Should be some great slides for this.]
+            - Craftsmenship can deteriorate   
+III.  A General History of Systems Management
+    1. What is the problem we are trying to solve?
+        a. Managing probability and consequences.
+            * Explain avalanche safety. 
+            * Last graphic here? http://utahavalanchecenter.org/avalanche-danger-scale
+    2. In the beginning..
+        a. Of course, this isn't the *real* beginning. There is a wonderful history of computing going back a hundred years, or even centuries. 
+            * [TODO] A few points about the "pre-history" of computing.
+    [IDEA] Could we separate systems management into "ages", like we do in human history? i.e. a "Bronze" age, etc, etc?
+
+IV. The UNIX way
+    1. By Ken Thompson
+        a. Worked at Bell Labs on B (before C)
+        b. Was one of the early inventors of UNIX
+        c. Interesting note: Ken is now employed by Google, where he works on Go.
+        d. He has been at-times a critic of Linux and once introduced a theoretical hack in which he showed that you could modify the compiler to deteect compilation of /bin/login to insert a backdoor and to detect compilation of the compiler itself to remove any trace of that logic in future versions of the compiler itself.
+    2. What is the UNIX philosophy?
+        1. Interestingly, the UNIX philosophy is one of the places where we started to socialize the idea that we could have "tools". To wit:
+
+            Quote by Brian Kerighan and Rob Pike, who wrote in their paper "Program Design in the UNIX Environment"
+            Much of the power of the UNIX operating system comes from a style of program design that makes programs easy to use and, more important, easy to combine with other programs. This style has been called the use of software tools, and depends more on how the programs fit into the programming environment and how they can be used with other programs than on how they are designed internally. [...] This style was based on the use of tools: using programs separately or in combination to get a job done, rather than doing it by hand, by monolithic self-sufficient subsystems, or by special-purpose, one-time programs.
+
+        2. Doug McIlroy invented the UNIX pipe:
+            a. "As a programmer, it is your job to put yourself out of business. What you do today can be automated tomorrow."
+            b. "The notion of "intricate and beautiful complexities" is almost an oxymoron. Unix programmers vie with each other for "simple and beautiful" honors — a point that's implicit in these rules, but is well worth making overt."
+            c. He has criticized Linux for being bloated as compared to his UNIX designs when he was at Bell Labs:
+                "Everything was small... and my heart sinks for Linux when I see the size of it. [...] The manual page, which really used to be a manual page, is now a small volume, with a thousand options... We used to sit around in the Unix Room saying, 'What can we throw out? Why is there this option?' It's often because there is some deficiency in the basic design — you didn't really hit the right design point. Instead of adding an option, think about what was forcing you to add that option."
+
+V. DevOps
+   1. http://radar.oreilly.com/2012/06/what-is-devops.html
+        a. In the beginning, John Alspaw points out, there were no differences between "dev" and "ops" because there was only one.
+        b. Then programmers started writing punch cards and operators ran around changing tapes around and fixing things when they broke. (Which was often!)
+        c. Then we had the microcomputer and suddenly, we could build servers for lots of different things (not too many, though) and those all needed to be 
+           maintained.
+        d. Then as virtualization started to emerge, the scale of the number of "machines" that a sysadmins had to manage ballooned along with it.
+            * Sysadmins didn't scale.
+        e. So what ends up happening here is that modern applications have traditional needs (fault tolorance, uptime, etc) but those needs have melded back into the application.
+        f. So DevOps takes Dev/Ops/QA and tries to connect them through software.
+            * Is solving cultural problems with technology a good idea? Maybe.
+
+    2. Modern DevOps
+        a. Configuration management
+            * So we're left with two main areas of concern here. First, as the number of systems scale, it's hard to scale the human resources to meet the need. So, enter automation.
+            - So I submit that we have to ask ourselves if the same concerns that we've seen when automation was applied in the past might crop up again.
+                * This is a bit of a tough sell, naturally. It's easy to say that these concerns are being applied to a fundamentally different problem set.
+                * That's fine, but it's also probably fairly reasonable to say that many technological achievements have come with negative consequences attached, and at the very least,
+                  we owe it to ourselves to examine what they are.
+            * Moreover, I think it's important to examine take a look at the UNIX philosophy and see if we still agree with what was outlined there. Then, I think that as we move toward
+              heavily-automated systems if we agree 
+

@@ -1,0 +1,8 @@
+Three points to Consider
+------------------------
+
+1) How can we understand the things that we build by looking at the tools that we used to build them?
+
+2) Can automation decrease complexity or can it only increase effeciency?
+
+3) Are we using automation to augment our understanding or to replace our understanding.
