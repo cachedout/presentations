@@ -1,0 +1,6 @@
+mysqlite:
+  driver: sqlite3
+  database: /tmp/sdb.sqlite
+  table: sdb
+  create_table: True
+
